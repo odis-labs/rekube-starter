@@ -1,0 +1,16 @@
+{
+  "name": "rekube-starter",
+  "version": "0.2.0",
+  "esy": {
+    "build": "dune build --profile=release"
+  },
+  "dependencies": {
+    "rekube": "github:rizo/rekube#11add43",
+    "ocaml": "4.6.1000",
+    "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0"
+  },
+  "devDependencies": {
+    "ocaml": "4.6.1000",
+    "@opam/dune": "~1.11.4"
+  }
+}

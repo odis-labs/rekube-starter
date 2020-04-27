@@ -1,0 +1,5 @@
+(executable
+  (name Main)
+  (public_name rekube-gen)
+  (libraries rekube)
+  (preprocess (pps rekube.ppx)))
