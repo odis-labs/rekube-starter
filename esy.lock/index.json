@@ -1,5 +1,5 @@
 {
-  "checksum": "a3adb70802a7491b4db53e0aff4222fd",
+  "checksum": "66b08ce2cb78898d3158ac2f03664b19",
   "root": "rekube-starter@link-dev:./package.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -29,20 +29,20 @@
       },
       "overrides": [],
       "dependencies": [
-        "rekube@github:rizo/rekube#667e302@d41d8cd9",
+        "rekube@github:rizo/rekube#0ce7f9f@d41d8cd9",
         "ocaml@4.6.1000@d41d8cd9", "@esy-ocaml/reason@3.5.2@d41d8cd9"
       ],
       "devDependencies": [
         "ocaml@4.6.1000@d41d8cd9", "@opam/dune@opam:1.11.4@a7ccb7ae"
       ]
     },
-    "rekube@github:rizo/rekube#667e302@d41d8cd9": {
-      "id": "rekube@github:rizo/rekube#667e302@d41d8cd9",
+    "rekube@github:rizo/rekube#0ce7f9f@d41d8cd9": {
+      "id": "rekube@github:rizo/rekube#0ce7f9f@d41d8cd9",
       "name": "rekube",
-      "version": "github:rizo/rekube#667e302",
+      "version": "github:rizo/rekube#0ce7f9f",
       "source": {
         "type": "install",
-        "source": [ "github:rizo/rekube#667e302" ]
+        "source": [ "github:rizo/rekube#0ce7f9f" ]
       },
       "overrides": [],
       "dependencies": [
@@ -53,7 +53,8 @@
         "@opam/ppx_tools_versioned@opam:5.3.0@2c0dc023",
         "@opam/ppx_deriving_yojson@opam:3.5.2@ca415fbe",
         "@opam/lwt@opam:5.2.0@647c0bb8",
-        "@opam/cohttp-lwt-unix@opam:2.5.1@6d59fe96"
+        "@opam/cohttp-lwt-unix@opam:2.5.1@6d59fe96",
+        "@esy-ocaml/reason@3.5.2@d41d8cd9"
       ],
       "devDependencies": [ "ocaml@4.6.1000@d41d8cd9" ]
     },
@@ -1735,7 +1736,7 @@
         "@opam/lwt@opam:5.2.0@647c0bb8", "@opam/logs@opam:0.7.0@1d03143e",
         "@opam/fmt@opam:0.8.8@01c3a23c", "@opam/dune@opam:1.11.4@a7ccb7ae",
         "@opam/conduit-lwt-unix@opam:2.0.2@0c373577",
-        "@opam/cohttp-lwt@opam:2.5.1@addba697",
+        "@opam/cohttp-lwt@opam:2.5.0@174c5b90",
         "@opam/cmdliner@opam:1.0.4@93208aac",
         "@opam/base-unix@opam:base@87d0b2eb",
         "@esy-ocaml/substs@0.0.1@d41d8cd9"
@@ -1745,25 +1746,25 @@
         "@opam/lwt@opam:5.2.0@647c0bb8", "@opam/logs@opam:0.7.0@1d03143e",
         "@opam/fmt@opam:0.8.8@01c3a23c", "@opam/dune@opam:1.11.4@a7ccb7ae",
         "@opam/conduit-lwt-unix@opam:2.0.2@0c373577",
-        "@opam/cohttp-lwt@opam:2.5.1@addba697",
+        "@opam/cohttp-lwt@opam:2.5.0@174c5b90",
         "@opam/cmdliner@opam:1.0.4@93208aac",
         "@opam/base-unix@opam:base@87d0b2eb"
       ]
     },
-    "@opam/cohttp-lwt@opam:2.5.1@addba697": {
-      "id": "@opam/cohttp-lwt@opam:2.5.1@addba697",
+    "@opam/cohttp-lwt@opam:2.5.0@174c5b90": {
+      "id": "@opam/cohttp-lwt@opam:2.5.0@174c5b90",
       "name": "@opam/cohttp-lwt",
-      "version": "opam:2.5.1",
+      "version": "opam:2.5.0",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://opam.ocaml.org/cache/sha256/26/268de1479bf010c16f1de1ab5f9c75595dfdcafb2017ed4e73f8773b620da946#sha256:268de1479bf010c16f1de1ab5f9c75595dfdcafb2017ed4e73f8773b620da946",
-          "archive:https://github.com/mirage/ocaml-cohttp/releases/download/v2.5.1/cohttp-v2.5.1.tbz#sha256:268de1479bf010c16f1de1ab5f9c75595dfdcafb2017ed4e73f8773b620da946"
+          "archive:https://opam.ocaml.org/cache/sha256/f0/f07905bbe3138425572406844585e83ecb19ba94a8932b8e12d705cc32eada5a#sha256:f07905bbe3138425572406844585e83ecb19ba94a8932b8e12d705cc32eada5a",
+          "archive:https://github.com/mirage/ocaml-cohttp/releases/download/v2.5.0/cohttp-v2.5.0.tbz#sha256:f07905bbe3138425572406844585e83ecb19ba94a8932b8e12d705cc32eada5a"
         ],
         "opam": {
           "name": "cohttp-lwt",
-          "version": "2.5.1",
-          "path": "esy.lock/opam/cohttp-lwt.2.5.1"
+          "version": "2.5.0",
+          "path": "esy.lock/opam/cohttp-lwt.2.5.0"
         }
       },
       "overrides": [],
