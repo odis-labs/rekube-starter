@@ -5,7 +5,7 @@
     "build": "dune build --profile=release"
   },
   "dependencies": {
-    "rekube": "github:rizo/rekube#11add43",
+    "rekube": "github:rizo/rekube#667e302",
     "ocaml": "4.6.1000",
     "@esy-ocaml/reason": ">= 3.4.0 < 3.6.0"
   },

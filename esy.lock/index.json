@@ -1,5 +1,5 @@
 {
-  "checksum": "11b4cd16a111466c240c2377fac6942c",
+  "checksum": "a3adb70802a7491b4db53e0aff4222fd",
   "root": "rekube-starter@link-dev:./package.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
@@ -29,25 +29,25 @@
       },
       "overrides": [],
       "dependencies": [
-        "rekube@github:rizo/rekube#11add43@d41d8cd9",
-        "@esy-ocaml/reason@3.5.2@d41d8cd9"
+        "rekube@github:rizo/rekube#667e302@d41d8cd9",
+        "ocaml@4.6.1000@d41d8cd9", "@esy-ocaml/reason@3.5.2@d41d8cd9"
       ],
       "devDependencies": [
         "ocaml@4.6.1000@d41d8cd9", "@opam/dune@opam:1.11.4@a7ccb7ae"
       ]
     },
-    "rekube@github:rizo/rekube#11add43@d41d8cd9": {
-      "id": "rekube@github:rizo/rekube#11add43@d41d8cd9",
+    "rekube@github:rizo/rekube#667e302@d41d8cd9": {
+      "id": "rekube@github:rizo/rekube#667e302@d41d8cd9",
       "name": "rekube",
-      "version": "github:rizo/rekube#11add43",
+      "version": "github:rizo/rekube#667e302",
       "source": {
         "type": "install",
-        "source": [ "github:rizo/rekube#11add43" ]
+        "source": [ "github:rizo/rekube#667e302" ]
       },
       "overrides": [],
       "dependencies": [
-        "@opam/yojson@opam:1.6.0@1640933c", "@opam/yaml@opam:2.1.0@6b987828",
-        "@opam/uri@opam:3.1.0@d38ac0ae",
+        "ocaml@4.6.1000@d41d8cd9", "@opam/yojson@opam:1.6.0@1640933c",
+        "@opam/yaml@opam:2.1.0@6b987828", "@opam/uri@opam:3.1.0@d38ac0ae",
         "@opam/swagger@github:andrenth/ocaml-swagger:swagger.opam#b2cddc4@d41d8cd9",
         "@opam/re@opam:1.9.0@d4d5e13d",
         "@opam/ppx_tools_versioned@opam:5.3.0@2c0dc023",
@@ -55,7 +55,7 @@
         "@opam/lwt@opam:5.2.0@647c0bb8",
         "@opam/cohttp-lwt-unix@opam:2.5.1@6d59fe96"
       ],
-      "devDependencies": []
+      "devDependencies": [ "ocaml@4.6.1000@d41d8cd9" ]
     },
     "ocaml@4.6.1000@d41d8cd9": {
       "id": "ocaml@4.6.1000@d41d8cd9",
